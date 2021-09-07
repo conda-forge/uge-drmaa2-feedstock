@@ -1,5 +1,5 @@
 {% set name = "uge-drmaa2" %}
-{% set version = "8.6.18" %}
+{% set version = "8.7.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 6978b07ea5ec65ecfee3a7d659d18f1bf869ff7ff4581927d914b60f48d26e4a
+  sha256: d3011bb08eb3ddb7f7f5dea767f36ec8ebe4dea6f00b94c4da18d2ff7053e1a4
 
 build:
   number: 0
